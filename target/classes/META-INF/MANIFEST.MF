@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1469719031065
+Build-Jdk: 1.7.0_91
+Built-By: pfry
+Bundle-ManifestVersion: 2
+Bundle-Name: Camel Blueprint Route
+Bundle-SymbolicName: cassandra
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.pfry.route;uses:="org.apache.camel.builder,org.apach
+ e.camel.model";version="1.0.0.SNAPSHOT"
+Import-Package: org.apache.camel.builder;version="[2.15,3)",org.apache.c
+ amel.model;version="[2.15,3)",org.osgi.service.blueprint;version="[1.0.
+ 0,2.0.0)"
+Tool: Bnd-1.50.0
